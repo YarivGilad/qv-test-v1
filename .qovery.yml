@@ -1,0 +1,11 @@
+---
+application:
+  name: "qv-test-v1"
+  project: "qv-test-v1"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-qv-test-v1"
+  routes:
+  - application_name: "qv-test-v1"
+    paths:
+    - "/*"
